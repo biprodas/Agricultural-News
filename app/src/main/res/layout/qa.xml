@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:padding="25dp">
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/qadis"
+        android:text="প্রশ্ন উত্তর দেখুন"
+        android:textSize="24dp"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="150dp"
+        android:onClick="click"
+        android:background="@color/colorPrimaryDark" />
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/question"
+        android:text="প্রশ্ন করুন"
+        android:textSize="24dp"
+        android:textColor="@android:color/background_light"
+        android:layout_below="@+id/qadis"
+        android:layout_marginTop="15dp"
+        android:onClick="click"
+        android:background="@color/colorPrimaryDark" />
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/askkrishi"
+        android:text="কৃষি জিজ্ঞাসা"
+        android:textSize="24dp"
+        android:textColor="@android:color/background_light"
+        android:layout_below="@+id/question"
+        android:layout_marginTop="15dp"
+        android:onClick="click"
+        android:background="@color/colorPrimaryDark" />
+
+</LinearLayout>

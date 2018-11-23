@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:padding="25dp">
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/dhan"
+        android:text="@string/dhan"
+        android:textSize="24dp"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="15dp"
+        android:onClick="onClick"
+        android:background="@color/colorPrimaryDark" />
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/gom"
+        android:text="@string/gom"
+        android:textSize="24dp"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="15dp"
+        android:onClick="onClick"
+        android:background="@color/colorPrimaryDark"/>
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/barli"
+        android:text="@string/barli"
+        android:textSize="24dp"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="15dp"
+        android:onClick="onClick"
+        android:background="@color/colorPrimaryDark"/>
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/caun"
+        android:text="@string/caun"
+        android:textSize="24dp"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="15dp"
+        android:onClick="onClick"
+        android:background="@color/colorPrimaryDark"/>
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/cina"
+        android:text="@string/cina"
+        android:textSize="24dp"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="15dp"
+        android:onClick="onClick"
+        android:background="@color/colorPrimaryDark"/>
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/vutta"
+        android:text="@string/vutta"
+        android:textSize="24dp"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="15dp"
+        android:onClick="onClick"
+        android:background="@color/colorPrimaryDark"/>
+
+</LinearLayout>

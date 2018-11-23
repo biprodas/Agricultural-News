@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:padding="25dp">
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/lalshak"
+        android:text="@string/lalsak"
+        android:textSize="24dp"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="15dp"
+        android:onClick="onClick"
+        android:background="@color/colorPrimaryDark" />
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/puishak"
+        android:text="@string/puisak"
+        android:textSize="24dp"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="15dp"
+        android:onClick="onClick"
+        android:background="@color/colorPrimaryDark" />
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/begun"
+        android:text="@string/begun"
+        android:textSize="24dp"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="15dp"
+        android:onClick="onClick"
+        android:background="@color/colorPrimaryDark" />
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/potol"
+        android:text="@string/potol"
+        android:textSize="24dp"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="15dp"
+        android:onClick="onClick"
+        android:background="@color/colorPrimaryDark" />
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/daros"
+        android:text="@string/daros"
+        android:textSize="24dp"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="15dp"
+        android:onClick="onClick"
+        android:background="@color/colorPrimaryDark" />
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/tomato"
+        android:text="@string/tomato"
+        android:textSize="24dp"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="15dp"
+        android:onClick="onClick"
+        android:background="@color/colorPrimaryDark" />
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/moris"
+        android:text="@string/moris"
+        android:textSize="24dp"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="15dp"
+        android:onClick="onClick"
+        android:background="@color/colorPrimaryDark" />
+
+</LinearLayout>

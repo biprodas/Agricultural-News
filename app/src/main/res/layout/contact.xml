@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    android:background="@drawable/back">
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:id="@+id/jogajog"
+        android:onClick="onClick"
+        android:text="যোগাযোগ"
+        android:textSize="24dp"
+        android:textColor="@android:color/background_light"
+        android:background="@color/colorPrimaryDark" />
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:id="@+id/feedback"
+        android:onClick="onClick"
+        android:text="ফিডব্যাক"
+        android:textSize="24dp"
+        android:layout_below="@+id/jogajog"
+        android:textColor="@android:color/background_light"
+        android:background="@color/colorPrimaryDark" />
+
+</LinearLayout>

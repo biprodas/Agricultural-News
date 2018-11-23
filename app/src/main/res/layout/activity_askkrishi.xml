@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_askkrishi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.nazmulhossain.myapplication.askkrishi"
+    android:background="@drawable/back"
+    android:padding="25dp">
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="75dp"
+        android:id="@+id/blask"
+        android:onClick="calldet"
+        android:text="বাংলালিংক কৃষি জিজ্ঞাসা"
+        android:textSize="24dp"
+        android:textColor="@android:color/background_light"
+        android:background="@color/colorPrimaryDark" />
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:id="@+id/blbus"
+        android:onClick="calldet"
+        android:text="বাংলালিংক ব্যাবসা জিজ্ঞাসা"
+        android:textSize="24dp"
+        android:layout_below="@+id/blask"
+        android:textColor="@android:color/background_light"
+        android:background="@color/colorPrimaryDark" />
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:id="@+id/gpask"
+        android:onClick="calldet"
+        android:text="গ্রামীণফোন কৃষি সেবা"
+        android:textSize="24dp"
+        android:layout_below="@+id/blbus"
+        android:textColor="@android:color/background_light"
+        android:background="@color/colorPrimaryDark" />
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:id="@+id/krishiseba"
+        android:onClick="calldet"
+        android:text="কৃষি সেবা"
+        android:textSize="24dp"
+        android:layout_below="@+id/gpask"
+        android:textColor="@android:color/background_light"
+        android:background="@color/colorPrimaryDark" />
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:id="@+id/ekrishok"
+        android:onClick="calldet"
+        android:text="ই-কৃষক"
+        android:textSize="24dp"
+        android:layout_below="@+id/krishiseba"
+        android:textColor="@android:color/background_light"
+        android:background="@color/colorPrimaryDark" />
+
+</RelativeLayout>

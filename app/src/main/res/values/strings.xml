@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">কৃষি তথ্য</string>
+
+    <string name="crops">ফসল</string>
+    <string name="technology">কৃষি প্রযুক্তি</string>
+    <string name="news">কৃষি সংবাদ</string>
+    <string name="qa">প্রশ্ন/উত্তর</string>
+    <string name="contact">যোগাযোগ</string>
+
+    <string name="dana">দানা ফসল</string>
+    <string name="dal">ডাল ফসল</string>
+    <string name="tel">তৈলবীজ</string>
+    <string name="sobji">সবজি ফসল</string>
+    <string name="kondal">কন্দাল ফসল</string>
+    <string name="masala">মসলা</string>
+    <string name="other">অন্যান্য </string>
+
+    <string name="dhan">ধান</string>
+    <string name="gom">গম </string>
+    <string name="barli">বারলি</string>
+    <string name="caun">কাউন</string>
+    <string name="cina">চিনা</string>
+    <string name="vutta">ভুট্টা</string>
+
+    <string name="motor">মটর</string>
+    <string name="musur">মুসুর</string>
+    <string name="mug">মুগ</string>
+    <string name="maskolai">মাসকলাই </string>
+    <string name="chola">ছোলা </string>
+
+    <string name="til">তিল</string>
+    <string name="badam">বাদাম</string>
+    <string name="sorisa">সরিষা</string>
+    <string name="surjomukhi">সূর্যমুখী </string>
+    <string name="soyabin">সয়াবীন </string>
+
+    <string name="lalsak">লালশাক</string>
+    <string name="puisak">পুইশাক</string>
+    <string name="begun">বেগুন</string>
+    <string name="potol">পটল </string>
+    <string name="daros">ঢেঁড়স </string>
+    <string name="tomato">টমেটো </string>
+    <string name="moris">মরিচ </string>
+
+    <string name="alu">আলু</string>
+    <string name="mistialu">মিষ্টিআলু</string>
+    <string name="mukhikocu">মুখীকচু</string>
+    <string name="panikocu">পানিকচু </string>
+
+    <string name="peaj">পেয়েজ</string>
+    <string name="rosun">রসুন</string>
+    <string name="ada">আদা</string>
+    <string name="holud">হলুদ</string>
+    <string name="dhonia">ধনিয়া </string>
+
+    <string name="akh">ইক্ষু</string>
+    <string name="pat">পাট</string>
+    <string name="tula">তুলা</string>
+    <string name="title_activity_tab_display">tab_display</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+</resources>

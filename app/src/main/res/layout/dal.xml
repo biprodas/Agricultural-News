@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:padding="25dp">
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/motor"
+        android:text="@string/motor"
+        android:textSize="24dp"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="24dp"
+        android:onClick="onClick"
+        android:background="@color/colorPrimaryDark"/>
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/musur"
+        android:text="@string/musur"
+        android:textSize="24dp"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="24dp"
+        android:onClick="onClick"
+        android:background="@color/colorPrimaryDark"/>
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/mug"
+        android:text="@string/mug"
+        android:textSize="24dp"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="24dp"
+        android:onClick="onClick"
+        android:background="@color/colorPrimaryDark"/>
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/maskolai"
+        android:text="@string/maskolai"
+        android:textSize="24dp"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="24dp"
+        android:onClick="onClick"
+        android:background="@color/colorPrimaryDark"/>
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/chola"
+        android:text="@string/chola"
+        android:textSize="24dp"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="24dp"
+        android:onClick="onClick"
+        android:background="@color/colorPrimaryDark"/>
+
+
+
+</LinearLayout>

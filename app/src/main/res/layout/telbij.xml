@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:padding="25dp">
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/til"
+        android:text="@string/til"
+        android:textSize="24dp"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="15dp"
+        android:onClick="onClick"
+        android:background="@color/colorPrimaryDark" />
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/badam"
+        android:text="@string/badam"
+        android:textSize="24dp"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="15dp"
+        android:onClick="onClick"
+        android:background="@color/colorPrimaryDark" />
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/sorisa"
+        android:text="@string/sorisa"
+        android:textSize="24dp"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="15dp"
+        android:onClick="onClick"
+        android:background="@color/colorPrimaryDark" />
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/surjomukhi"
+        android:text="@string/surjomukhi"
+        android:textSize="24dp"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="15dp"
+        android:onClick="onClick"
+        android:background="@color/colorPrimaryDark" />
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/soyabin"
+        android:text="@string/soyabin"
+        android:textSize="24dp"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="15dp"
+        android:onClick="onClick"
+        android:background="@color/colorPrimaryDark" />
+
+</LinearLayout>

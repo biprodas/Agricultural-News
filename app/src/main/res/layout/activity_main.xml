@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.nazmulhossain.myapplication.MainActivity"
+    android:background="@drawable/back">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo"
+        android:id="@+id/imageView"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/crops"
+        android:text="@string/crops"
+        android:textSize="24dp"
+        android:textColor="@android:color/background_light"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="15dp"
+        android:onClick="crops"
+        android:background="@color/colorPrimaryDark" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/technology"
+        android:text="@string/technology"
+        android:textSize="24dp"
+        android:textColor="@android:color/background_light"
+        android:layout_below="@+id/crops"
+        android:layout_marginTop="15dp"
+        android:onClick="technology"
+        android:background="@color/colorPrimaryDark" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/news"
+        android:text="@string/news"
+        android:textSize="24dp"
+        android:textColor="@android:color/background_light"
+        android:layout_below="@+id/technology"
+        android:layout_marginTop="15dp"
+        android:onClick="news"
+        android:background="@color/colorPrimaryDark" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/qa"
+        android:text="@string/qa"
+        android:textSize="24dp"
+        android:textColor="@android:color/background_light"
+        android:layout_below="@+id/news"
+        android:layout_marginTop="15dp"
+        android:onClick="qa"
+        android:background="@color/colorPrimaryDark" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contact"
+        android:text="@string/contact"
+        android:textSize="24dp"
+        android:textColor="@android:color/background_light"
+        android:layout_below="@+id/qa"
+        android:layout_marginTop="15dp"
+        android:onClick="contact"
+        android:background="@color/colorPrimaryDark" />
+
+</RelativeLayout>

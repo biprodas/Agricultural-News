@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nazmulhossain.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".crops"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".technology"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".news"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".qa"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".contact"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dana"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".telbij"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sobji"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".kondal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".masala"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".other"
+            android:screenOrientation="portrait" />
+        <activity android:name=".DisplayCrops" />
+        <activity android:name=".daldisplay" />
+        <activity android:name=".teldisplay" />
+        <activity android:name=".sobjidisplay" />
+        <activity android:name=".kondaldisplay" />
+        <activity android:name=".masaladisplay" />
+        <activity android:name=".otherdisplay" />
+        <activity
+            android:name=".tab_display"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".qadisplay"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".askquestion"
+            android:screenOrientation="portrait" />
+        <activity android:name=".askkrishi"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".calldetails"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".jogajog"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".feedback"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

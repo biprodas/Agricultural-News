@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_calldetails"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.nazmulhossain.myapplication.calldetails"
+    android:padding="25dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:text="Call"
+        android:id="@+id/calltitle"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:text="Call"
+        android:id="@+id/calldes"
+        android:layout_below="@id/calltitle"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/callkorun"
+        android:text="কল করুন"
+        android:textSize="24dp"
+        android:layout_below="@+id/calldes"
+        android:textColor="@android:color/background_light"
+        android:background="@color/colorPrimaryDark" />
+
+
+
+</RelativeLayout>
